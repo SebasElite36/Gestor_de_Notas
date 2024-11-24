@@ -1,0 +1,7 @@
+Requisitos Minimos:
+una canaima
+Requisitos Recomendados:
+Procesador: Intel Core i7-11700 / AMD Ryzen 7 5800X
+Memoria: 32 GB de RAM
+Gráficos: Nvidia GeForce RTX 3070 Ti / Nvidia GeForce RTX 4070 / AMD Radeon RX 6800 XT
+Almacenamiento: 160 GB de espacio disponible

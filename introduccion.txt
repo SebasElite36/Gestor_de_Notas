@@ -1,0 +1,17 @@
+Objetivo de este proyecto: el objetivo es desarrollar un sistema de gestion de notas para que los estudiantes mantengan un control sobre sus notas de las asignaturas. Este sistema suministra una lista de almacenamiento de las asignturas y a su vez proporciona un calculo rapido que permite determinar cuanto necesita sacar el estudiante en su ultima nota para ganar la materia, tambien permite ver por medio de un reporte todas las asignaturas, sus notas respectivas, el promedio y el promedio general estadistico de las notas, a su vez permite descargar sus notas a un Excel. Descripcion del sistema: Vista:
+
+1) panel principal: Campo para ingresar el nombre del estudiante. Campo para añadir asignaturas al sistema. Lista de asignaturas disponibles. Botones para acceder a funcionalidades principales: Ingresar Notas: Abre una ventana nueva para digitar las notas de la asignatura seleccionada. Generar Resumen: genera un reporte de las asignaturas y sus notas. Ver Estadísticas: muestra un resumen estadistico, como el promedio general y distribución de notas. Generar Excel: Exporta la información a un archivo Excel.
+
+2) Ventana de Notas: Permite digitar las tres calificaciones de la asignatura seleccionada. Incluye un botón para calcular automáticamente la nota mínima para aprobar. Muestra mensajes informativos dependiendo del resultado del cálculo. Proporciona un botón para guardar las notas ingresadas, vinculándolas a la asignatura correspondiente.
+
+3) Ventana de Resumen: Presenta información detallada en una ventana emergente. Funciona tanto para mostrar reportes como para estadísticas.
+
+Controlador: El controlador gestiona la lógica del sistema, conectando la interfaz gráfica con las clases que representan la información (como asignaturas y estudiantes). Las principales funcionalidades son:
+
+1) Gestión de Estudiantes y Asignaturas:
+Almacena y recupera el nombre del estudiante. Permite añadir asignaturas y asignarles notas.
+
+2) Cálculo de Notas: Calcula promedios por asignatura. Determina la nota mínima necesaria para aprobar. Genera estadísticas globales, como promedio general y distribución de notas.
+3)Reportes y Exportación: Crea un reporte textual con las asignaturas y sus respectivas calificaciones. Genera un archivo Excel que resume la información del estudiante, sus notas, y estadísticas relevantes.
+
+4)Validación de Datos: Verifica que las notas ingresadas estén en el rango válido (0-5). Gestiona errores y asegura la coherencia de los datos.
