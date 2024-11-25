@@ -1,0 +1,36 @@
+Requisitos Previos
+Python:
+
+Descarga e instala la ultima version de  Python: https://www.python.org/downloads/
+Durante la instalación, asegúrate de marcar la casilla "Add Python to PATH".
+Verifica que Python esté instalado abriendo la terminal de comandos(cmd)
+y ejecutando:python --version(para abrir la terminal de comandos tecla las teclas windows + R)
+se recomienda usar un editor de texto como visual studio code pero es opcional
+
+Instrucciones de Instalación
+Paso 1: Descarga del Proyecto
+Si el proyecto está en un repositorio como GitHub:
+Descarga el archivo .zip del proyecto desde el repositorio dandole clic al boton verde llamado "Code".
+Extrae los archivos en una carpeta de tu PC
+link: https://github.com/SebasElite36/Gestor_de_Notas.git
+
+Paso 2: Instala Python y sus Librerías
+Crea un entorno virtual (opcional, pero recomendado):
+
+Abre la terminal de comandos (cmd) en la carpeta del proyecto (usa el comando cd <ruta-del-proyecto> para navegar a la carpeta).
+una vez que en el cmd este ubicado en la carpeta del proyecto procedemos a crear el entorno virtual digirando 
+el siguiente comando: python -m venv venv
+aqui ya lo abremos creado pero ahora necesitamos activarlo con el siguiente comando: venv\Scripts\activate
+
+Instala las dependencias del proyecto:
+
+Asegúrate de estar en la carpeta del proyecto con el entorno virtual activado.
+Ejecuta:pip install tkinter customtkinter openpyxl
+y con esto las dependencias estaran instaladas, pero falta verificar si estan instaladas con el
+comando: pip list
+
+Instrucciones para Ejecutar el Proyecto
+ahora que todo esta listo procedemos a ejecutar el proyecto
+en el cmd ubicamos de nuevo la carpeta del proyecto :cd <ruta-de-la-carpeta-del-proyecto>
+verificamos de nuevo que el entorno virtual este activado con :venv\Scripts\activate
+y ejecutamos el archivo main: python main.py
